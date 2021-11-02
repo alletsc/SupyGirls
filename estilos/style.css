@@ -1,0 +1,146 @@
+@charset "pt-br";
+
+/* Google fonts & font family */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Press+Start+2P&display=swap');
+
+:root {
+    --cor0: #393939;
+    --cor1: #ffbf00;
+    --cor2: #063d1e;
+    --cor3: #1a5c37;
+    --cor4: #2fa866;
+    --cor5: #3ddc84;
+    --cor6: #c5ebd6;
+    --cor7: #BF8F00;
+    --cor8: #806000;
+
+
+    --fonte_pixel: 'Press Start 2P';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+header {
+
+    font-style: normal;
+    background-color: var(--cor1);
+    color: white;
+
+
+}
+
+header>h1 {
+    text-align: center;
+    font: normal normal 2.5em var(--fonte_pixel);
+    text-transform: uppercase;
+    padding: 40px 0px 20px 0px;
+}
+
+nav {
+    background-color: var(--cor1);
+    color: white;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+    text-shadow: 0px 7px 9px rgba(0, 0, 0, 0.363);
+    margin-bottom: 0px;
+}
+
+nav>a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover {
+    background-color: #ff0015;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#e1 {
+    background-color: bisque;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+#e1 h2 {
+    text-align: center;
+    padding: 10px;
+    background-color:var(--cor1);
+    color: #ffff;
+    font: 1.5em var(--fonte_pixel);
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+#e1 p {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+    padding: 10px;
+
+}
+#e1 ol {
+    columns: 2;
+    list-style-type: none;
+}
+
+#e1 img{
+    width: 50%;
+    display: block;
+    margin: auto;
+
+}
+
+#e1 audio {
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+
+footer {
+    background-color: var(--cor7);
+    padding: 5px;
+
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(156, 60, 25);
+    font: normal normal 0.7em var(--fonte_pixel);
+    padding: 1px 5px;
+
+}
