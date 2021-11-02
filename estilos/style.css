@@ -22,16 +22,14 @@
 * {
     margin: 0px;
     padding: 0px;
+
 }
 
 
-
 header {
-
     font-style: normal;
     background-color: var(--cor1);
     color: white;
-
 
 }
 
@@ -43,26 +41,29 @@ header>h1 {
 }
 
 nav {
+
     background-color: var(--cor1);
     color: white;
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
     text-shadow: 0px 7px 9px rgba(0, 0, 0, 0.363);
     margin-bottom: 0px;
+    word-spacing: 20px;
+
 }
 
 nav>a {
     color: white;
-    padding: 20px;
+    padding: 10px;
     text-decoration: none;
     font-style: normal;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 nav a:hover {
-    background-color: #ff0015;
+    background-color: #ee992aaf;
     padding: 5px;
     border-radius: 5px;
 }
@@ -73,19 +74,34 @@ main {
     max-width: 1000px;
     margin: auto;
     margin-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.246);
+
 }
+
+
+main p {
+
+    margin: 15px 0px 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2.2em;
+}
+
 
 #e1 {
     background-color: bisque;
     border-radius: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
 
 }
 
 #e1 h2 {
     text-align: center;
     padding: 10px;
-    background-color:var(--cor1);
+    background-color: var(--cor1);
     color: #ffff;
     font: 1.5em var(--fonte_pixel);
     border-radius: 10px 10px 0px 0px;
@@ -103,12 +119,13 @@ main {
     padding: 10px;
 
 }
+
 #e1 ol {
     columns: 2;
     list-style-type: none;
 }
 
-#e1 img{
+#e1 img {
     width: 50%;
     display: block;
     margin: auto;
@@ -123,21 +140,28 @@ main {
 
 
 footer {
-    background-color: var(--cor7);
+    flex-shrink: 0;
+    background-color: transparent;
     padding: 5px;
+    color: var(--cor1);
+    padding: 10px;
 
 }
+
+
+
 
 footer p {
     text-align: center;
-    color: white;
-    font-style: italic;
+    color: black;
+    font-style: normal;
     font-weight: lighter;
-    font-size: 1.3em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-family: var(--fonte_pixel);
 }
 
 footer a {
+
     text-decoration: none;
     color: rgb(156, 60, 25);
     font: normal normal 0.7em var(--fonte_pixel);
