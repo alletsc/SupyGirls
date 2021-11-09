@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex010</title>
+</head>
+<body>
+    <h1>
+        Verificador de velocidade
+    </h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptatibus rem corrupti temporibus eaque distinctio quos ab, veniam nulla cum doloremque earum fugiat, libero ducimus provident, iusto eveniet veritatis vero.
+    </p>
+
+    <input type="Number" name="velocidade" id="vel_txt"> KM/H 
+    <input type="button" value="Verificar" onclick="calcular()">
+
+    <div id="res">
+
+    </div>
+
+    <script>
+        function calcular() {
+            var v_txt = document.querySelector('input#vel_txt')
+            var res = document.querySelector('div#res')
+            var vel = Number(v_txt.value)
+            res.innerHTML = `<p>Sua velocidade atual é de ${vel} <em><strong>km/h</strong></em></p>`
+            if (vel > 60) {
+                res.innerHTML = `<p><EM>RAPIDÃO</EM></p>`
+            }
+
+            res.innerHTML += `<strong>
+                <p>Dirija sempre com segurança</p>
+            </strong>`
+
+            
+
+        }
+    </script>
+
+</body>
+</html>

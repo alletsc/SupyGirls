@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+
+    <style>
+        body {
+            background-color: aquamarine;
+            color: black;
+            font: 2em Arial;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="principal">
+        Iniciando com DOM
+    </h1>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi praesentium tempore <STRONG>omnis unde expedita
+            nisi quam</STRONG> vitae. Facere possimus vel unde ipsam minus, dolorem numquam amet sed debitis, libero
+        ducimus?</P>
+    <p>
+        Aprendendo usar o DOM
+    </p>
+    <div id="msg">
+        Clique em mim
+    </div>
+
+
+    <script>
+        // ==RECOMENDADO== 
+        var d = document.querySelector('div#msg')
+        d.style.background = 'blue'
+        d.style.color = 'white'
+
+
+        //seleção por tags
+        // var corpo = document.body
+        //var p1 = document.getElementsByTagName('p')[0]
+        //var p2 = document.getElementsByTagName('p')[1]
+        //document.write(p2.innerText)
+        //p1.style.color = 'blue'
+        //corpo.style.color = 'red'
+        //corpo.style.background = 'white'
+
+        //document.write(p1.innerHTML)
+        //seleção por name, id, class
+        //var d = document.getElementById('msg')
+        //d.style.background = 'green'
+        //d.innerText = 'Estou esperando'
+        // class
+        //var p = principal.getElementsByClass('principal')
+        //p.style.background = 'black'
+    </script>
+</body>
+
+</html>

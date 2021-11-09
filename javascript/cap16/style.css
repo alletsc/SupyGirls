@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+
+body {
+    background-color: #44475a;
+    font: normal normal 1.2em Arial;
+}
+
+header {
+    font: normal normal 1.5em Arial;
+    color: white;
+    text-align: center;
+    height: auto;
+    padding: 5px;
+}
+
+section {
+    background-color: #bd93f9;
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+    height: 400px;
+    margin: auto auto 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+select#flista {
+    width: 150px;
+    height: 150px;
+    background-color: whitesmoke;
+
+}
+
+div {
+    text-align: left;
+    padding: 5px;
+    margin: auto;
+}
+
+
+footer {
+    font: Arial;
+    padding: 10px;
+    color: #ff79c6;
+    text-align: center;
+    font-style: normal;
+}

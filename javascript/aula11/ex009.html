@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BR?</title>
+</head>
+
+<body>
+    <h1>Eu sou BR e vc? </h1>
+    <ol>
+        <li>Digite BRA, para Brasil</li>
+        <li>Digite USA, para Estados Unidos</li>
+        <li>Digite OUT, para outros</li>
+    </ol>
+
+    Sua nacionalidade: <input type="text" name="nacionalidade" id="nac">
+    <input type="button" value="enviar" onclick="resp()">
+
+    <div id="res">
+
+    </div>
+
+    <script>
+        function resp() {
+            var nac_txt = document.querySelector('input#nac')
+            var res = document.querySelector('div#resp')
+
+            if (res == BRA) {
+                res.innerHTML = `FALA PAAAARÇA`
+            }
+
+            if (res == USA) {
+                res.innerHTML = ` Hello`
+            } else {
+                res.innerHTML = `Legal`
+            }
+        }
+    </script>
+</body>
+
+</html>
